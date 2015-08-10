@@ -87,11 +87,16 @@ namespace SampleMetricConsole
             Console.WriteLine("");
             
             //2. Get Metrcis List
+            //You need to use your own Data here
+            string ResourceGroupName = "metricsampleRG";
+            string ProviderName="Microsoft.Compute";
+            string VirtualMachineName="metricsample";
+
             red("Get Netric List");
             Task<string> defTask=   myMetric.LoadMetricDefinitions(
-                    "metricsampleRG",
-                    "Microsoft.Compute",
-                    "metricsample",
+                    ResourceGroupName,
+                    ProviderName,
+                    VirtualMachineName,
                    "");
             defTask.Wait();
             string jsonMetricDefinition = defTask.Result;
