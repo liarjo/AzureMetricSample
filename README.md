@@ -43,6 +43,7 @@ You need to configure APP.config with this data
 This data can ead from Resource ID in the new portal<br>
 <a href="https://raw.githubusercontent.com/liarjo/AzureMetricSample/master/img/resourceID.JPG">
 <img src="https://raw.githubusercontent.com/liarjo/AzureMetricSample/master/img/resourceID.JPG" height="40%" width="40%"></A>
+<br>
 and looks like this sample <br>
 /subscriptions/d134b748-cba2-43e2-a445-edc634076368/resourceGroups/<b>metricsampleRG</b>/providers/<b>Microsoft.Compute</b>/virtualMachines/<b>metricsample</b>
 </p>
