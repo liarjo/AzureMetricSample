@@ -30,7 +30,7 @@ namespace SampleMetricConsole
             this.SubscriptionId = ConfigurationManager.AppSettings["SubscriptionId"];
             this.Password = ConfigurationManager.AppSettings["password"];
             this.ListMetrcis = "https://management.azure.com/subscriptions/{0}/resourceGroups/{1}/providers/{2}/virtualMachines/{3}/metricDefinitions?api-version={4}&$filter={5}";
-                             ///https://management.azure.com/subscriptions/bcb59800-e2f5-42cf-bc58-26248a25bb5a/resourceGroups/metricsampleRG/providers/Microsoft.Compute/virtualMachines/metricsample?api-version=2015-05-01-preview
+                            
             this.apiVersion = "2014-04-01";
 
         }
